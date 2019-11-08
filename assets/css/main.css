@@ -599,7 +599,14 @@ input, select, textarea {
 		}
 
 /* Icon */
+	.icons{
+		display: flex;
+		flex-direction: column;
+	}
 
+	.icons p {
+		margin: 5px;
+	}
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -636,7 +643,6 @@ input, select, textarea {
 		}
 
 /* Image */
-
 	.image {
 		border-radius: 4px;
 		border: 0;
